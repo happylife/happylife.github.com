@@ -1,0 +1,26 @@
+/* GLOBALHEADER */
+#globalheader { position:relative; display:block; width:800px; height:36px; margin:18px auto; text-align:left; z-index:9998; background:url(../images/globalheader.png) repeat-x;
+	-khtml-border-radius:4px; -ms-border-radius:4px; -o-border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+	-khtml-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -ms-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -o-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -moz-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; -webkit-box-shadow:rgba(0,0,0,0.3) 0 1px 2px; box-shadow:rgba(0,0,0,0.3) 0 1px 2px;
+	font:12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+@media only screen and (max-device-width:800px) {
+	#globalheader { z-index:1; }
+}
+
+#globalheader #globalnav { position:relative; display:block; margin:0; padding:0; zoom:1; z-index:3; }
+#globalheader #globalnav:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+#globalheader #globalnav li { display:inline; }
+#globalheader #globalnav li a { float:left; width:102px; height:36px; overflow:hidden; text-indent:-9999px; background:url(../images/globalnav.png) no-repeat; cursor:pointer; }
+
+/* TEXT */
+#globalheader            #globalnav li            a span { display:block; width:100%; height:30px; margin:3px auto; background:url(../images/globalnav_text.png) no-repeat 50% 0; _background-image:url(../images/globalnav_text.gif); }
+#globalheader            #globalnav li#gn-tab1   a span { background-position:50% 0; }
+#globalheader            #globalnav li#gn-tab2   a span { background-position:50% -30px; }
+#globalheader            #globalnav li#gn-tab3     a span { background-position:50% -60px; }
+#globalheader            #globalnav li#gn-tab4    a span { background-position:50% -90px; }
+#globalheader            #globalnav li#gn-tab5  a span { background-position:50% -120px; }
+
+#appstore {
+	padding-left: 80px;
+}
